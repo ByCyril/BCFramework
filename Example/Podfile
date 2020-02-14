@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BCFramework_Tests' do
+  pod 'BCFramework', :path => '../'
+  
+  
+end
