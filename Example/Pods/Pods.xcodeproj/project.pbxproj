@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F802CD23F6684C00DCFA78 /* BCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F802CB23F6684C00DCFA78 /* BCColor.h */; };
-		01F802CE23F6684C00DCFA78 /* BCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F802CC23F6684C00DCFA78 /* BCColor.m */; };
+		01F8030123F66B7000DCFA78 /* BCFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F802F823F66B7000DCFA78 /* BCFramework.h */; };
+		01F8030223F66B7000DCFA78 /* BCDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F802F923F66B7000DCFA78 /* BCDateFormatter.m */; };
+		01F8030323F66B7000DCFA78 /* BCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F802FA23F66B7000DCFA78 /* BCString.m */; };
+		01F8030423F66B7000DCFA78 /* BCRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F802FB23F66B7000DCFA78 /* BCRandom.h */; };
+		01F8030523F66B7000DCFA78 /* BCDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F802FC23F66B7000DCFA78 /* BCDateFormatter.h */; };
+		01F8030623F66B7000DCFA78 /* BCRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F802FD23F66B7000DCFA78 /* BCRandom.m */; };
+		01F8030723F66B7000DCFA78 /* BCString.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F802FE23F66B7000DCFA78 /* BCString.h */; };
+		01F8030823F66B7000DCFA78 /* BCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F802FF23F66B7000DCFA78 /* BCColor.m */; };
+		01F8030923F66B7000DCFA78 /* BCColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F8030023F66B7000DCFA78 /* BCColor.h */; };
 		28F39D3D551BD63823C4ADAE1FCAF68D /* Pods-BCFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8A49066297821C41CDA316F26754F0 /* Pods-BCFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35CD41421A56486FCB6A92A149AE6031 /* BCFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A584600EAC82A3E88B724C049908B598 /* BCFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BDAC6F2E948ECF8A5E9FBF1D9611AB0 /* Pods-BCFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D0EF905DD9998F332BDB7BC8C01B53 /* Pods-BCFramework_Tests-dummy.m */; };
@@ -28,9 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F802CA23F6682800DCFA78 /* BCFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCFramework.h; sourceTree = "<group>"; };
-		01F802CB23F6684C00DCFA78 /* BCColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCColor.h; sourceTree = "<group>"; };
-		01F802CC23F6684C00DCFA78 /* BCColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCColor.m; sourceTree = "<group>"; };
+		01F802F823F66B7000DCFA78 /* BCFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCFramework.h; path = BCFramework/BCFramework.h; sourceTree = "<group>"; };
+		01F802F923F66B7000DCFA78 /* BCDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCDateFormatter.m; path = BCFramework/BCDateFormatter.m; sourceTree = "<group>"; };
+		01F802FA23F66B7000DCFA78 /* BCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCString.m; path = BCFramework/BCString.m; sourceTree = "<group>"; };
+		01F802FB23F66B7000DCFA78 /* BCRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCRandom.h; path = BCFramework/BCRandom.h; sourceTree = "<group>"; };
+		01F802FC23F66B7000DCFA78 /* BCDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCDateFormatter.h; path = BCFramework/BCDateFormatter.h; sourceTree = "<group>"; };
+		01F802FD23F66B7000DCFA78 /* BCRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCRandom.m; path = BCFramework/BCRandom.m; sourceTree = "<group>"; };
+		01F802FE23F66B7000DCFA78 /* BCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCString.h; path = BCFramework/BCString.h; sourceTree = "<group>"; };
+		01F802FF23F66B7000DCFA78 /* BCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCColor.m; path = BCFramework/BCColor.m; sourceTree = "<group>"; };
+		01F8030023F66B7000DCFA78 /* BCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCColor.h; path = BCFramework/BCColor.h; sourceTree = "<group>"; };
 		15DEDFAD14E3C80882C0CE4A6E31D70A /* Pods_BCFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BCFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66A27C1E45D01377E99935B32B38E932 /* Pods-BCFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BCFramework_Tests.modulemap"; sourceTree = "<group>"; };
@@ -75,15 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01F802CF23F6686600DCFA78 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				01F802CB23F6684C00DCFA78 /* BCColor.h */,
-				01F802CC23F6684C00DCFA78 /* BCColor.m */,
-			);
-			path = Color;
-			sourceTree = "<group>";
-		};
 		0C7D9C5E61E0844B75472C7809A46E03 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +139,15 @@
 			isa = PBXGroup;
 			children = (
 				6991F708D62CB4FAB3FC61F7C19BCF95 /* BCFramework.podspec */,
+				01F8030023F66B7000DCFA78 /* BCColor.h */,
+				01F802FF23F66B7000DCFA78 /* BCColor.m */,
+				01F802FC23F66B7000DCFA78 /* BCDateFormatter.h */,
+				01F802F923F66B7000DCFA78 /* BCDateFormatter.m */,
+				01F802F823F66B7000DCFA78 /* BCFramework.h */,
+				01F802FB23F66B7000DCFA78 /* BCRandom.h */,
+				01F802FD23F66B7000DCFA78 /* BCRandom.m */,
+				01F802FE23F66B7000DCFA78 /* BCString.h */,
+				01F802FA23F66B7000DCFA78 /* BCString.m */,
 				692F3A33550B0362774482AD1BD11245 /* LICENSE */,
 				CFB1875FB945AFCD295102A9D61FF043 /* README.md */,
 			);
@@ -173,8 +186,6 @@
 			children = (
 				B1DCF1356A4574E99A565EF398ABAE8A /* Pod */,
 				0C7D9C5E61E0844B75472C7809A46E03 /* Support Files */,
-				01F802CA23F6682800DCFA78 /* BCFramework.h */,
-				01F802CF23F6686600DCFA78 /* Color */,
 			);
 			name = BCFramework;
 			path = ../..;
@@ -204,8 +215,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F802CD23F6684C00DCFA78 /* BCColor.h in Headers */,
+				01F8030723F66B7000DCFA78 /* BCString.h in Headers */,
+				01F8030423F66B7000DCFA78 /* BCRandom.h in Headers */,
+				01F8030123F66B7000DCFA78 /* BCFramework.h in Headers */,
+				01F8030523F66B7000DCFA78 /* BCDateFormatter.h in Headers */,
 				35CD41421A56486FCB6A92A149AE6031 /* BCFramework-umbrella.h in Headers */,
+				01F8030923F66B7000DCFA78 /* BCColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +322,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				75630EA0EDA3476120B3B675FD25534A /* BCFramework-dummy.m in Sources */,
-				01F802CE23F6684C00DCFA78 /* BCColor.m in Sources */,
+				01F8030223F66B7000DCFA78 /* BCDateFormatter.m in Sources */,
+				01F8030323F66B7000DCFA78 /* BCString.m in Sources */,
+				01F8030623F66B7000DCFA78 /* BCRandom.m in Sources */,
+				01F8030823F66B7000DCFA78 /* BCColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

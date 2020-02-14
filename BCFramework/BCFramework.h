@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BCDateFormatter.h"
 #import "BCColor.h"
+#import "BCRandom.h"
+#import "BCString.h"
 
 //! Project version number for BCFoundation.
 FOUNDATION_EXPORT double BCFoundationVersionNumber;
